@@ -7,6 +7,7 @@ class NewRelicRouteNameFilter implements RouteFilter
 
     public function setRouteNameProperty($route_name_property)
     {
+        dd($route_name_property);
         $this->routeNameProperty = $route_name_property;
     }
 
